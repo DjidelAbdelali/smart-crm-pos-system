@@ -22,10 +22,10 @@ This project is an engineering module built by **DJIDEL Abdelali Rayan** (System
 
 ```mermaid
 graph TD
-    UI[Web POS & Tickets Interface] --> State[Local State Manager]
-    State --> Database[(Browser IndexedDB Storage)]
-    State --> Excel[Excel & PDF Invoice Generator]
-    State --> Service[NSSM Windows Resilient Service Auto-Restart]
+    UI["Web POS & Tickets Interface"] --> State["Local State Manager"]
+    State --> Database[("Browser IndexedDB Storage")]
+    State --> Excel["Excel & PDF Invoice Generator"]
+    State --> Service["NSSM Windows Resilient Service Auto-Restart"]
 ```
 
 ---
